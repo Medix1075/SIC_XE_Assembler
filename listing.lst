@@ -1,0 +1,11 @@
+0000	          	SUM     	START   	0
+0000	032008    	FIRST   	LDA     	ZERO
+0003	072002    	        	LDX     	ONE
+0006	9010      	        	ADDR    	X,A
+0008	          	        	USE     	CDATA
+0008	000001    	ONE     	WORD    	1
+0008	          	        	USE     	
+0008	          	RSB     	        	
+000B	          	        	USE     	CDATA
+000B	000000    	ZERO    	WORD    	0
+    	          	        	END     	FIRST
